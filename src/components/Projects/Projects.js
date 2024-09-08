@@ -15,20 +15,19 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          My Recent <strong className="purple">Vedios </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Here are a few Vedios I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="The Mehrangarh Fort"
+              description="Mehrangarh Fort, located in Jodhpur, Rajasthan, is one of India's largest and most impressive forts. Built in 1459 by Rao Jodha, it stands majestically atop a 410-foot hill, offering stunning views of the city. The fort features intricate architecture, expansive courtyards, and houses a museum showcasing royal artifacts."
+              ghLink="https://www.youtube.com/watch?v=duqP7h0nL_k&ab_channel=S1Vlogs"
             />
           </Col>
 
@@ -36,10 +35,11 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="The Real Banaras❣️💫|| Dev Deepawali ||Varansi tourist places❣️💫
+"
+              description="
+Experience the magic of Dev Deepawali in Varanasi, where the ghats come alive with thousands of diyas and vibrant celebrations. Explore iconic tourist spots like the Kashi Vishwanath Temple, Sarnath, and the bustling streets filled with local culture. Witness a mesmerizing blend of tradition and spirituality in the heart of Banaras."
+              ghLink="https://www.youtube.com/watch?v=gNWlaKhpZBA&ab_channel=S1Vlogs"
             />
           </Col>
 
@@ -47,10 +47,9 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="India Jeet Gayi Asia Cup🥳 Chalo Chaley Chai Piney ❣️ aur Gurgaon ki wadiyo me 😅😅"
+              description="India has won the Asia Cup! 🥳 Time to celebrate with tea and explore the scenic valleys of Gurgaon. Let's enjoy the moment and soak in the victory with some delightful chai and beautiful views. ❣️😅"
+              ghLink="https://www.youtube.com/watch?v=0GLZmfN_c38&ab_channel=S1Vlogs"
             />
           </Col>
 
@@ -58,35 +57,14 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
+              title="Dussehra 2023 Mela in Gurgaon 🥳
+"
+              description="Celebrate Dussehra 2023 in Gurgaon with vibrant festivities at the Dussehra Mela! Enjoy traditional dance performances, delicious street food, thrilling rides, and a grand display of effigies burning to mark the victory of good over evil. A perfect blend of culture, entertainment, and community spirit awaits! 🎉"
+              ghLink="https://www.youtube.com/watch?v=Oo7Vetp_QvU&ab_channel=S1Vlogs"
               demoLink="https://plant49-ai.herokuapp.com/"
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
-            />
-          </Col>
         </Row>
       </Container>
     </Container>

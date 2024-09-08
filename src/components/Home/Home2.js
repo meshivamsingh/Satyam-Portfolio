@@ -6,6 +6,7 @@ import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
+  AiFillYoutube,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -19,36 +20,29 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+            I fell in love with civil engineering and have gained substantial knowledge and hands-on experience in this field.. 🤷‍♂️
               <br />
-              <br />I am fluent in classics like
+              <br /> I’m also passionate about leveraging the latest engineering software tools like..
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="purple"> AutoCAD, Revit and STAAD Pro. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My field of interest lies in &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
+                <b className="purple">Designing </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  Blockchain.
+                constructing sustainable infrastructure
                 </b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              Whenever possible, I apply my skills to real-world projects, ensuring that I contribute to the creation of , eco-friendly,  <b className="purple">reliable, eco-friendly</b> and
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
+                safe structures.                </b>
               </i>
             </p>
           </Col>
@@ -67,27 +61,19 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://youtube.com/@vlogswiths1?si=-x4NmHm-TmC8IAqE"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <AiFillGithub />
+                  <AiFillYoutube />
                 </a>
               </li>
+          
+               
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/mesatyamsingh?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,7 +83,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.instagram.com/mesatyam.singh?igsh=MXZobTk3aXp1NTdtYw%3D%3D&utm_source=qr"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
